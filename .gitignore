@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Jupyter / 导出产物
+*.html
+!logs/**/*.html
+
+# 数据文件（按 DOI 自行获取，不随仓库分发）
+data/
+*.mat
+*.csv
+*.arff
+
+# 本机痕迹
+.DS_Store
+Thumbs.db
+desktop.ini
